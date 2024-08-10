@@ -1,4 +1,63 @@
 .header{
-  background: #69F0AE;
-  font-size: 64px;
+  background: $primary;
+  color: #ffffff;
+  padding: 12px 0;
+  img{
+    max-width: 80px;
+    height: 49px;
+    @include mobile-large{
+        margin-bottom: 16px;
+    }
+  }
+
+&-list {
+  margin-left: 64px;
+  a{
+  padding: 12px 0;
+  &:hover{
+    color: $secondary;
+        }
+      }
+  @include mobile-large{
+    width: 50%;
+  border: 1px solid #ffffff;
+  margin-left: 0;
+  font-size: 20px;
+  a{
+    width: 100%;
+  }
+  }  
+    }
+&-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;    
+  align-items: center;
+  
+  @include mobile-large{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0px -12px;
+  }
+    }
+&-col{
+  display: flex;
+justify-content: space-between;
+@include mobile-large{
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+}
+    }
+
+
+    
+&-logo{
+@include mobile-large{
+  margin-left: 15px;
+}
+
+}
+
 }

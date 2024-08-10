@@ -1,0 +1,21 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", "Noto Sans TC",serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+a:hover{
+    color: $secondary;
+}
