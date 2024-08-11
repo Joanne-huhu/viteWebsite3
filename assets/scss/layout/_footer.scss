@@ -35,7 +35,7 @@
 .phone{
   font-size: 36px;
   gap: 20px;
-@include mobile{
+@include mobile-large{
   font-size: 16px;
   gap: 10px;
 }
@@ -43,7 +43,7 @@
 .mail{
   font-size: 36px;
   gap: 20px;
-@include mobile{
+@include mobile-large{
   font-size: 16px;
   gap: 10px;
 }
@@ -59,7 +59,7 @@
       max-width: 40px;
     }
   }
-  @include mobile{
+  @include mobile-large{
     gap: 8px; 
     img{
       max-width: 24px;
@@ -76,7 +76,7 @@
 @include pad{
   padding-top: 40px 0;
 }
-@include mobile{
+@include mobile-large{
   padding-top: 24px 0;
   flex-direction: column;
   justify-content: flex-start;
@@ -90,7 +90,7 @@
   display: flex;
   gap: 48px;
   font-size: 14px;
-  @include mobile{
+  @include mobile-large{
     gap: 8px;
     display: flex;
     flex-direction: column;

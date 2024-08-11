@@ -19,3 +19,18 @@ a{
 a:hover{
     color: $secondary;
 }
+.section{
+    &-index{
+        padding: 80px 0;
+    }
+    &-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: $secondary;
+    text-align: center;
+    margin-bottom: 48px;
+    @include mobile-large{
+        font-size: 24px;
+    }
+}
+}
