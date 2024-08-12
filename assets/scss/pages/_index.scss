@@ -183,6 +183,9 @@
     &-wrap{
     max-width: 636px;
     margin: 0 auto;
+    p{
+        margin-bottom: 24px;
+    }
     }
     &-text{
         font-size: 20px;
@@ -192,5 +195,32 @@
     }
     &-content{
         max-width: 636px;
+    }
+    &-input{
+        width: 100%;
+        padding: 6px 12px;
+        margin-bottom: 16px;
+        
+    }
+    &-label{
+        margin-bottom: 8px;        
+    }
+    &-check{
+        margin-bottom: 48px;
+    }
+    &-btn{
+        display: flex;
+        justify-content: center;
+        .link{
+            width: 65%;
+            background: $primary;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            padding: 16px 0;
+            
+        }
+
+
     }
 }
