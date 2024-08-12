@@ -218,6 +218,9 @@
             border: none;
             cursor: pointer;
             padding: 16px 0;
+            &:hover{
+                color: $secondary;
+            }
             
         }
 
